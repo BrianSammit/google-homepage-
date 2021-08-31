@@ -9,7 +9,6 @@ body {
 
 nav {
   padding: 20px 0;
-  background-color: red;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -36,12 +35,19 @@ li {
   height: 40px;
 }
 
-a:hover {
-  text-decoration: underline;
+.ul-div button {
+  color: white;
+  background-color: #4285f4;
+  border-radius: 2px;
+  border-width: 1px;
+  border: solid #4285f4;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 5px 12px;
 }
 
-.div-form {
-  background-color: blue;
+a:hover {
+  text-decoration: underline;
 }
 
 main {
@@ -50,6 +56,62 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.search-div {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+  width: 560px;
+  height: 39px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  color: #9aa0a6;
+}
+
+.material-icons {
+  font-size: 20px;
+}
+
+.search-div img {
+  width: 23px;
+  height: 23px;
+  margin-right: 10px;
+}
+
+.in-for {
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  width: 487px;
+  height: 34px;
+  background-color: transparent;
+  outline: none;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.button-div button {
+  margin: 5px;
+  background-color: hsl(0 0% 95%);
+  outline: none;
+  padding: 0 16px;
+  color: hsl(213 5% 39%);
+  border-radius: 4px;
+  box-shadow: hsl(0 0% 0% / 0.1) 0px 1px 1px 0px;
+  width: auto;
+  height: 36px;
+  border: solid hsl(0 0% 95%);
 }
 
 footer {
