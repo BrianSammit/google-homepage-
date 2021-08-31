@@ -25,10 +25,10 @@ ul {
 }
 
 li {
-  margin: 5px;
+  margin: 0 5px;
 }
 
-.ul-div .a {
+.ul-div a {
   font-size: 13px;
   color: hsl(0 0% 0% / 0.87);
   line-height: 24px;
@@ -47,17 +47,21 @@ a:hover {
 footer {
   position: fixed;
   bottom: 0;
-  padding: 10px 0;
-  background-color: rgb(90, 26, 26);
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
   width: 100%;
+  height: 40px;
   display: flex;
   justify-content: space-between;
 }
 
-.fo-div .a {
+.fo-div {
+  padding: 0 20px;
+}
+
+.fo-div a {
+  color: hsl(213 5% 39%);
   font-size: 14px;
-  color: hsl(0 0% 0% / 0.87);
-  line-height: 24px;
+  line-height: 40px;
   text-decoration: none;
-  height: 40px;
 }
